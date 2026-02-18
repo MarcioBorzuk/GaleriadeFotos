@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.banner {
+    background-color: #001f3f;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.info-escola h1 {
+    margin: 0;
+}
+
+.curso {
+    padding: 40px;
+    text-align: center;
+}
+
+.colunas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.botao {
+    margin-top: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+/* GALERIA */
+
+.titulo-galeria {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#galeria {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.aluno {
+    display: flex;
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.aluno img {
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.voltar {
+    text-align: center;
+    margin: 30px;
+}
